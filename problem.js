@@ -13,3 +13,20 @@ CHALLENGE
 - If the password is less than 5 characters, log out "Your password is too short!".
 */
 
+function passwordCheck(password, Armida){
+    if (password.input >= Armida) {
+    console.log(“Access Granted!”)
+    } 
+    if (password.input >= forgot) {
+    console.log(“Here is a hint”)
+    }
+    if (password.input >= reset) {
+        console.log(“Let's reset your account”)
+    }
+    
+       
+    else {
+    console.log(“Access Denied!”)
+    }
+   }
+   
